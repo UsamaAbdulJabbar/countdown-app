@@ -1,0 +1,98 @@
+html{
+    height: 100%;
+}
+
+    :root{
+        --backgroundColor : #284b63;
+        --FrontColor : #d9d9d9;
+
+    }
+
+body{
+    background-color: var(--backgroundColor);
+    
+
+}
+h1{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.container{
+    background-color: var(--FrontColor);
+    margin: auto;
+    width: 100%;
+    height: 220px;
+    display: flex;
+   align-items: center;
+   justify-self: center;
+   flex-direction: column;
+   box-shadow: blanchedalmond;
+    
+}
+.contmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cont1{
+    width: 100% ;
+    font-family: sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.cont2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+input{
+    width: 300px;
+    height: 50px;
+    font-size: 16pt;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    border: 2px var(--backgroundColor) solid;
+    border-radius: 10px ;
+    background-color: var(--backgroundColor);
+    color: white;
+
+}
+
+
+.cont3{
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding : 50px auto;
+    width: 100%;
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 16pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+
+}
+
+.buttonborder{
+    border : 2px outset green;
+    border-radius: 10px;
+}
+.buttonborder1{
+    border : 2px outset rgb(1, 54, 122);
+    border-radius: 10px;
+}
